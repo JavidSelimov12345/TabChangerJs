@@ -1,0 +1,44 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.tabs{
+    height: 80px;
+    
+    display: flex;
+    justify-content: space-between;
+}
+.tab{
+    width:30%;
+    border: 1px solid black;
+    background-color: aqua;
+    
+    transition: all 0.4s;
+}
+
+.tab.active{
+    background-color: blue;
+}
+.tab.active:hover{
+    background-color: blueviolet;
+}
+
+.wrapper{
+    width:90%;
+    margin: auto;
+    background-color: aqua;
+}
+
+.contentTab{
+    height: 200px;
+    background-color: bisque;
+    border:1px solid black;
+    display: none;
+}
+.contentTab.active{
+    display: block;
+}
+
+
